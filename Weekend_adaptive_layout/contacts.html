@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Контакты</title>
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a href="#" class="logo"></a>
+                <a href="user" class="user"></a>
+            </div>
+            <div class="bubble">
+                <h1>Contact Us</h1>
+                <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</h3>
+            </div>
+        </header>
+        <main>
+            <div class="container rectangles"> <!-- создаём контейнер отвечающий за контактные данные для обратной связи-->
+                <div class="contacts">
+                    <h3>Address</h3>
+                    <p>Id convallis placerat sit sed duis id amet volutpat quam a, pharetra.</p>
+                    <h3>Phone</h3>
+                    <p class="phone"><a href="tel:+781273134321">+7-812-7313-4321</a></p>
+                    <p class="phone"><a href="tel:+781700001234">+7-817-0000-1234</a></p>
+                    <h3>Online Service</h3>
+                    <p class="web"><a href="index.html">www.site.com</a></p>
+                    <p class="mail"><a href="mailto:hello.site@gmail.com">hello.site@gmail.com</a></p>
+                </div>
+                <div class="rectangle contactform"> <!-- создаём форму с необходимыми полями для обратной связи-->
+                    <div class="contactform-wrapper">
+                        <h3>Send Us Message</h3>
+                        <form name="contactform">
+                            <label for "fullname">Full Name
+                                <input type="text" id="fullname" name="fullname" value="" placeholder="Your Name">
+                            </label>
+                            <label for "email">Your Email
+                                <input type="text" id="email" name="email" value="" placeholder="Your Email">
+                            </label>
+                            <label for "message">Message
+                                <textarea id="message" name="message" placeholder="Your Message"></textarea>
+                            </label>
+                            <button type="button">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </div> <!-- создаём контейнер в котором будет подключена интерактивная карта google-->
+            <div class="container blank"></div>
+            <div class="container map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29659.45325999032!2d39.066242244332884!3d51.67056830273855!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x413b294cea738c23%3A0x6705f6413de27b9e!2z0K_RgNC80LDRgNC60LA!5e0!3m2!1sru!2sru!4v1666442786597!5m2!1sru!2sru" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>
+        <footer>
+            <div class="container"> <!-- добавляем кнопку -->
+                <button type="button">Let’s Talk</button>
+                <h2>Interested to work<br>with our team?</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+            </div>
+            <div class="liner"></div>
+            <div class="container">  <!-- создаём контейнер для "подвала" страницы с контактной информацией -->
+                <ol>
+                    <li value="1">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                    <li value="20"><a href="tel:+781273134321">+7-812-7313-4321</a></li>
+                    <li value="5"><a href="mailto:hello.site@gmail.com">hello.site@gmail.com</a></li>
+                </ol>
+                <p>2021 All rights reserved.</p>
+            </div>
+        </footer>
+    </body>
+</html>
+
+
